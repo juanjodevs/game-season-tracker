@@ -1,4 +1,3 @@
-import { endpointServerChangedSubscribe } from 'next/dist/build/swc/generated-native'
 import type { Game } from './types'
 
 export const games: Game[] = [
