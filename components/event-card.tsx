@@ -6,8 +6,8 @@ const EventCard = ({ event, type = '' }: { event: Event, type?: string }) => {
   const startDaysRemaining = getDaysRemaining(event.startDate)
 
   return (
-    <Card className='relative'>
-      <div className='absolute top-2 right-2 flex flex-row gap-2'>
+    <Card className='md:relative'>
+      <div className='md:absolute md:top-2 md:right-2 flex flex-row gap-2'>
         {
           startDaysRemaining > 0 ?
             <Badge color="blue">{startDaysRemaining} day to go Live</Badge>
@@ -23,7 +23,7 @@ const EventCard = ({ event, type = '' }: { event: Event, type?: string }) => {
       </div>
       <h2 className='font-bold'>{event.name}</h2>
       <p>{event.shortDescription}</p>
-      <Flex justify='between' className='text-sm'>
+      <Flex justify='between' className='text-xs md:text-sm'>
         <div>
           {formatDate(event.startDate)}
           {
