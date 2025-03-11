@@ -15,7 +15,7 @@ const EventCard = ({ event, type = '' }: { event: Event, type?: string }) => {
             <Badge color="green">Live</Badge>
         }
         {
-          startDaysRemaining < 0 && event.endDate && (
+          startDaysRemaining <= 0 && event.endDate && (
             <Badge color="red">{getDaysRemaining(event.endDate)} days left</Badge>
           )
         }
