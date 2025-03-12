@@ -61,6 +61,13 @@ export const games: Game[] = [
     currentSeason: {
       name: '0.1 (Early Access)',
       startDate: '2024-12-06',
+      endDate: '2025-04-04',
+      shortDescription:
+        'Path of Exile 2 is a next generation Action RPG from Grinding Gear Games, featuring co-op for up to six players. Set years after the original Path of Exile, you will return to the dark world of Wraeclast and seek to end the corruption that is spreading.'
+    },
+    nextSeason: {
+      name: '0.2 (Early Access)',
+      startDate: '2025-04-04',
       shortDescription:
         'Path of Exile 2 is a next generation Action RPG from Grinding Gear Games, featuring co-op for up to six players. Set years after the original Path of Exile, you will return to the dark world of Wraeclast and seek to end the corruption that is spreading.'
     },
