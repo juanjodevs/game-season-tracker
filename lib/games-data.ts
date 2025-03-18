@@ -176,7 +176,7 @@ export const games: Game[] = [
     },
     nextSeason: {
       name: 'Tombs of the Erased',
-      startDate: '2025-04-02',
+      startDate: '2025-04-14',
       shortDescription:
         'Explore forgotten graves, teeming with new threats and challenges. But be wary, Traveler - these mausoleums are ever-shifting labyrinths.',
       features: [
