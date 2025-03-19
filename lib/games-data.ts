@@ -10,38 +10,6 @@ export const games: Game[] = [
       startDate: '2024-07-26',
       shortDescription:
         'Settlers of Kalguur involves your exile assisting the Kalguurans in the development and funding of the settlement of Kingsmarch.',
-      features: [
-        'A new challenge league, Settlers league',
-        'Tinctures reworked and re-introduced to the game',
-        'New Retaliation skills',
-        'Ascendancy changes',
-        'Gladiator rework',
-        'Raider replaced with Warden',
-        'Balance changes',
-        'Melee rework',
-        'Removal of Ancestral totems',
-        'Melee attack gems now scale significantly with levels',
-        'Banner skill rework',
-        'Rage rework, Aggravate Bleeding added',
-        'Defences rework, equipment quality rework and new top-tier armour bases',
-        'Magic find nerf, increased Item Quantity stat removed',
-        'Endgame changes',
-        'New endgame encounters based on Affliction, Sentinel, and Kalandra leagues',
-        '6th map device slot',
-        'Tier 17 map rebalance',
-        'New & reworked Scarabs',
-        'The Nameless Seer now allows Scrying of a map, replacing a map divination card drops with another maps',
-        'New Mavens Chisels',
-        'League mechanic changes',
-        'New anoint-exclusive passive skills through Prismatic Oil',
-        'New & reworked Ritual items, Affliction monsters and The King in the Mists encounter added to Ritual',
-        'More improvements/mini-versions of mechanics in the campaign',
-        'Reworked "Deal with the Bandits" quest rewards in Act 2',
-        'Miscellaneous quality of life improvements',
-        'Dump all items into stash tab hotkey (ctrl + right click)',
-        'Console version performance improvements',
-        'A new map series was introduced.'
-      ],
       patchNotes: 'https://www.pathofexile.com/settlers'
     },
     events: [
@@ -105,39 +73,8 @@ export const games: Game[] = [
       endDate: '2025-04-29',
       shortDescription:
         'Wield Witchcraft Powers. Unravel a Mystery. Hunt the Headrotten.',
-      features: [
-        'New Seasonal Mechanic: Witch Powers',
-        'New Seasonal Items: Occult Gems',
-        'New Season Journey, Season Blessings, and Battle Pass',
-        'New World Event: Headhunts',
-        'New Dungeon Type: Rootholds',
-        'Tree of Whispers System Updates',
-        'New Season Story and Questline',
-        'New Seasonal Reputation: The Coven',
-        'New Armory System',
-        'New Legendary Aspects, Uniques, Tempering Manuals',
-        'New Runes'
-      ],
       patchNotes: 'https://news.blizzard.com/diablo4/season'
     },
-    //nextSeason: {
-    //  name: 'Season 8',
-    //  startDate: 'TBD',
-    //  shortDescription: 'Season 8 brings new endgame content, gear, and updates to Diablo 4, including new zone events and a borrowed power seasonal mechanic',
-    //  features: [
-    //    'New Lair Bosses: Urivar, Harbinger of Hatred, and Belial',
-    //    'New and Updated Boss Mechanics',
-    //    'New Seasonal Mechanic: Boss Powers',
-    //    'New World Event: Apparition Incursions',
-    //    'New Seasonal Items: TBD',
-    //    'New Season Journey, Season Blessings, and Battle Pass',
-    //    'System Update: Boss Lair Keys',
-    //    'New Season Story and Questline',
-    //    'New Seasonal Reputation: TBD',
-    //    'New Legendary Aspects and Uniques'
-    //  ],
-    //  patchNotes: 'https://news.blizzard.com/diablo4/season'
-    //},
     events: [
       {
         name: 'Mother\'s Blessings',
@@ -156,16 +93,6 @@ export const games: Game[] = [
       startDate: '2024-07-09',
       shortDescription:
         'Harbingers have slain warriors across Eterra, cursing their souls to linger.',
-      features: [
-        'Pinnacle Boss',
-        'Harbingers and the Forgotten Knight',
-        'Random Nemesis Encounters',
-        'Evade Mechanic',
-        'Reworked Boss Defenses',
-        'Item Faction Updates',
-        'Monolith Progression ',
-        'New Uniques'
-      ],
       patchNotes: 'https://www.lastepoch.com/harbingers-of-ruin'
     },
     nextSeason: {
@@ -173,17 +100,6 @@ export const games: Game[] = [
       startDate: '2025-04-14',
       shortDescription:
         'Explore forgotten graves, teeming with new threats and challenges. But be wary, Traveler - these mausoleums are ever-shifting labyrinths.',
-      features: [
-        'Tombs of the Erased',
-        'New Faction: The Woven',
-        'Monolith Expansion: Woven Echoes',
-        'Crafting Improvements',
-        'Mastery Respecialization',
-        'Sentinel Rework',
-        'New Marksman Skill: Heartseeker',
-        'Boss and Loot Updates',
-        'Quality of Life Improvements'
-      ],
       patchNotes: 'https://lastepoch.com/tombs-of-erased'
     }
   },
