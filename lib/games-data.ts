@@ -102,7 +102,7 @@ export const games: Game[] = [
     currentSeason: {
       name: 'Season 7: Season of Witchcraft',
       startDate: '2024-01-21',
-      endDate: '2025-04-15',
+      endDate: '2025-04-29',
       shortDescription:
         'Wield Witchcraft Powers. Unravel a Mystery. Hunt the Headrotten.',
       features: [
