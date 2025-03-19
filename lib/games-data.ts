@@ -199,27 +199,6 @@ export const games: Game[] = [
     },
     events: [
       {
-        name: 'Kut-Ku Gone Cuckoo',
-        startDate: '2025-03-04',
-        endDate: '2025-03-18',
-        shortDescription:
-          'Gather special materials to obtain the Mimiphyta α headgear!'
-      },
-      {
-        name: 'Stalking Supper',
-        startDate: '2025-03-04',
-        endDate: '2025-03-11',
-        shortDescription:
-          'An event quest for gathering Kunafa Cheese that you can use as an additional ingredient when cooking on the BBQ Grill!'
-      },
-      {
-        name: 'Tongue-Tied',
-        startDate: '2025-03-11',
-        endDate: '2025-03-18',
-        shortDescription:
-          'An event quest for gathering Hard Armor Spheres and Advanced Armor Spheres for upgrading your armor!'
-      },
-      {
         name: 'Ballet in the Rain',
         startDate: '2025-03-18',
         endDate: '2025-03-25',
@@ -236,6 +215,12 @@ export const games: Game[] = [
       {
         name: 'Like a Fire Hidden by Sand',
         startDate: '2025-03-18',
+        endDate: '2025-04-01',
+        shortDescription:
+          'Gather special material to obtain the Expedition Headgear α, a piece of equipment based on the emblem of the expedition!'
+      }, {
+        name: 'Congalala Cravings',
+        startDate: '2025-03-25',
         endDate: '2025-04-01',
         shortDescription:
           'Gather special material to obtain the Expedition Headgear α, a piece of equipment based on the emblem of the expedition!'
