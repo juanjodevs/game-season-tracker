@@ -140,16 +140,10 @@ export const games: Game[] = [
     //},
     events: [
       {
-        name: 'March of the Goblins',
-        startDate: '2025-03-04',
-        endDate: '2025-03-11',
-        shortDescription: 'This March of the Goblins introduces six brand-new Goblin variants, who will remain after the increased Goblin activity has ended.'
-      },
-      {
-        name: 'Season 8 PTR',
-        startDate: '2025-03-11',
-        endDate: '2025-03-18',
-        shortDescription: 'Season 8 brings new endgame content, gear, and updates to Diablo 4, including new zone events and a borrowed power seasonal mechanic.'
+        name: 'Mother\'s Blessings',
+        startDate: '2025-03-18',
+        endDate: '2025-03-25',
+        shortDescription: 'Gold and experience at increased rates and claim bonus Gifts of the Tree caches.'
       }
     ]
   },
