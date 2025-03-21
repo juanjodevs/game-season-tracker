@@ -3,7 +3,6 @@ export interface Event {
   startDate: string
   endDate?: string
   shortDescription: string
-  features?: string[]
   patchNotes?: string
 }
 
