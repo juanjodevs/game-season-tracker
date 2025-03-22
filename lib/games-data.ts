@@ -1,5 +1,10 @@
 import type { Game } from './types'
 
+export const news: string[] = [
+  'Last Epoch Season 2 delayed to 2025-04-14',
+  'Expected date for Diablo 4 Season 8: Season of the Hunt is 2025-04-29, but not yet confirmed'
+]
+
 export const games: Game[] = [
   {
     id: 'poe',
