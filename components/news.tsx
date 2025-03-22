@@ -1,6 +1,6 @@
 import { Card, Heading } from '@radix-ui/themes'
 const News = ({ news }: { news: string[] }) => (
-  <section>
+  <section className='pb-5'>
     <Card className='bg-yellow-300 border-2 border-yellow-700 text-slate-800'>
       <Heading>Latest news</Heading>
       <ul>
