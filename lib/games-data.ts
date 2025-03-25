@@ -118,6 +118,12 @@ export const games: Game[] = [
       shortDescription:
         'A wild and unrelenting new frontier. Dynamic, ever-changing environments. A story of monsters and humans in a world with two faces.'
     },
+    nextSeason: {
+      name: 'Title Update 1',
+      startDate: '2025-04-03',
+      shortDescription:
+        'Monster Hunter Wilds Free Title Update 1 including Mizutsune, The Grand Hub, Zoh Shia and Arena Quests!'
+    },
     events: [
       {
         name: 'Ballet in the Rain',
@@ -146,12 +152,6 @@ export const games: Game[] = [
         endDate: '2025-04-01',
         shortDescription:
           'Gather special material to obtain the Expedition Headgear α, a piece of equipment based on the emblem of the expedition!'
-      },
-      {
-        name: 'Title Update 1',
-        startDate: '2025-04-04',
-        shortDescription:
-          'Monster Hunter Wilds Free Title Update 1 including Mizutsune, The Grand Hub, Zoh Shia and Arena Quests!'
       }
     ]
   }
