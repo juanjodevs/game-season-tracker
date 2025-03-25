@@ -139,12 +139,19 @@ export const games: Game[] = [
         endDate: '2025-04-01',
         shortDescription:
           'Gather special material to obtain the Expedition Headgear α, a piece of equipment based on the emblem of the expedition!'
-      }, {
+      },
+      {
         name: 'Congalala Cravings',
         startDate: '2025-03-25',
         endDate: '2025-04-01',
         shortDescription:
           'Gather special material to obtain the Expedition Headgear α, a piece of equipment based on the emblem of the expedition!'
+      },
+      {
+        name: 'Title Update 1',
+        startDate: '2025-04-04',
+        shortDescription:
+          'Monster Hunter Wilds Free Title Update 1 including Mizutsune, The Grand Hub, Zoh Shia and Arena Quests!'
       }
     ]
   }
