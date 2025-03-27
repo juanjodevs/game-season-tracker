@@ -10,7 +10,7 @@ const EventCard = ({ event, type = '' }: { event: Event, type?: string }) => {
       <div className='md:absolute md:top-2 md:right-2 flex flex-row gap-2'>
         {
           startDaysRemaining > 0 ?
-            <Badge color="blue">{startDaysRemaining} day to go Live</Badge>
+            <Badge color="blue">{startDaysRemaining} day{startDaysRemaining !== 1 && 's'} to go Live</Badge>
             :
             <Badge color="green">Live</Badge>
         }
