@@ -9,13 +9,12 @@ export function formatDate(dateString: string): string {
 
 export function getDaysRemaining(dateString: string): number {
   const today = new Date()
-  today.setHours(0, 0, 0, 0)
-
   const targetDate = new Date(dateString)
-  targetDate.setHours(0, 0, 0, 0)
+
+  today.setHours(0, 0, 0, 0)
 
   const differenceInTime = targetDate.getTime() - today.getTime()
   const differenceInDays = Math.ceil(differenceInTime / (1000 * 3600 * 24))
 
-  return differenceInDays
+  return differenceInDays - 1
 }
