@@ -9,16 +9,18 @@ export const games: Game[] = [
     id: 'poe',
     name: 'Path of Exile',
     officialSite: 'https://www.pathofexile.com',
-    currentSeason: {
-      name: 'Settlers of Kalguur',
-      startDate: '2024-07-26',
-      shortDescription:
-        'Settlers of Kalguur involves your exile assisting the Kalguurans in the development and funding of the settlement of Kingsmarch.',
-      patchNotes: 'https://www.pathofexile.com/settlers'
-    },
     events: [
       {
+        name: 'Settlers of Kalguur',
+        type: 'season',
+        startDate: '2024-07-26',
+        shortDescription:
+          'Settlers of Kalguur involves your exile assisting the Kalguurans in the development and funding of the settlement of Kingsmarch.',
+        patchNotes: 'https://www.pathofexile.com/settlers'
+      },
+      {
         name: 'Legacy of Phrecia',
+        type: 'event',
         startDate: '2025-02-20',
         endDate: '2025-04-23',
         shortDescription:
@@ -30,40 +32,13 @@ export const games: Game[] = [
     id: 'poe2',
     name: 'Path of Exile 2',
     officialSite: 'https://pathofexile2.com/early-access',
-    currentSeason: {
-      name: '0.1 (Early Access)',
-      startDate: '2024-12-06',
-      endDate: '2025-04-04',
-      shortDescription:
-        'Path of Exile 2 is a next generation Action RPG from Grinding Gear Games, featuring co-op for up to six players. Set years after the original Path of Exile, you will return to the dark world of Wraeclast and seek to end the corruption that is spreading.'
-    },
-    nextSeason: {
-      name: 'Dawn of the hunt (0.2, Early Access)',
-      startDate: '2025-04-04',
-      shortDescription:
-        'Path of Exile 2 is a next generation Action RPG from Grinding Gear Games, featuring co-op for up to six players. Set years after the original Path of Exile, you will return to the dark world of Wraeclast and seek to end the corruption that is spreading.'
-    },
     events: [
       {
-        name: 'Race Event',
-        startDate: '2024-03-02',
-        endDate: '2025-03-02',
+        name: 'Dawn of the hunt (0.2, Early Access)',
+        type: 'season',
+        startDate: '2025-04-04',
         shortDescription:
-          'Series of race Events leading up to Patch 0.2.0'
-      },
-      {
-        name: 'Race Event',
-        startDate: '2024-03-09',
-        endDate: '2025-03-09',
-        shortDescription:
-          'Series of race Events leading up to Patch 0.2.0'
-      },
-      {
-        name: 'Race Event',
-        startDate: '2025-03-16',
-        endDate: '2025-03-16',
-        shortDescription:
-          'Series of race Events leading up to Patch 0.2.0'
+          'Path of Exile 2 is a next generation Action RPG from Grinding Gear Games, featuring co-op for up to six players. Set years after the original Path of Exile, you will return to the dark world of Wraeclast and seek to end the corruption that is spreading.'
       }
     ]
   },
@@ -71,20 +46,15 @@ export const games: Game[] = [
     id: 'diablo4',
     name: 'Diablo IV',
     officialSite: 'https://diablo4.blizzard.com/',
-    currentSeason: {
-      name: 'Season 7: Season of Witchcraft',
-      startDate: '2024-01-21',
-      endDate: '2025-04-29',
-      shortDescription:
-        'Wield Witchcraft Powers. Unravel a Mystery. Hunt the Headrotten.',
-      patchNotes: 'https://news.blizzard.com/diablo4/season'
-    },
     events: [
       {
-        name: 'Mother\'s Blessings',
-        startDate: '2025-03-18',
-        endDate: '2025-03-25',
-        shortDescription: 'Gold and experience at increased rates and claim bonus Gifts of the Tree caches.'
+        name: 'Season 7: Season of Witchcraft',
+        type: 'season',
+        startDate: '2024-01-21',
+        endDate: '2025-04-29',
+        shortDescription:
+          'Wield Witchcraft Powers. Unravel a Mystery. Hunt the Headrotten.',
+        patchNotes: 'https://news.blizzard.com/diablo4/season'
       }
     ]
   },
@@ -92,65 +62,22 @@ export const games: Game[] = [
     id: 'last_epoch',
     name: 'Last Epoch',
     officialSite: 'https://lastepoch.com/',
-    currentSeason: {
-      name: 'Harbingers of Ruin',
-      startDate: '2024-07-09',
-      shortDescription:
-        'Harbingers have slain warriors across Eterra, cursing their souls to linger.',
-      patchNotes: 'https://www.lastepoch.com/harbingers-of-ruin'
-    },
-    nextSeason: {
-      name: 'Tombs of the Erased',
-      startDate: '2025-04-17',
-      shortDescription:
-        'Explore forgotten graves, teeming with new threats and challenges. But be wary, Traveler - these mausoleums are ever-shifting labyrinths.',
-      patchNotes: 'https://lastepoch.com/tombs-of-erased'
-    }
-  },
-  {
-    id: 'monster_hunter_wilds',
-    name: 'Monster Hunter Wilds',
-    officialSite: 'https://www.monsterhunter.com/wilds',
-    currentSeason: {
-      name: 'Base Game',
-      startDate: '2025-02-28',
-      shortDescription:
-        'A wild and unrelenting new frontier. Dynamic, ever-changing environments. A story of monsters and humans in a world with two faces.'
-    },
-    nextSeason: {
-      name: 'Title Update 1',
-      startDate: '2025-04-03',
-      shortDescription:
-        'Monster Hunter Wilds Free Title Update 1 including Mizutsune, The Grand Hub, Zoh Shia and Arena Quests!'
-    },
     events: [
       {
-        name: 'Ballet in the Rain',
-        startDate: '2025-03-18',
-        endDate: '2025-03-25',
+        name: 'Harbingers of Ruin',
+        type: 'season',
+        startDate: '2024-07-09',
         shortDescription:
-          'An event quest for gathering Glowing Orb - Swords to use as decorations for customizing your weapon skills!'
+          'Harbingers have slain warriors across Eterra, cursing their souls to linger.',
+        patchNotes: 'https://www.lastepoch.com/harbingers-of-ruin'
       },
       {
-        name: 'Sand-Scarred Soul',
-        startDate: '2025-03-18',
-        endDate: '2025-03-25',
+        name: 'Tombs of the Erased',
+        type: 'season',
+        startDate: '2025-04-17',
         shortDescription:
-          'An event quest for gathering Glowing Orb - Armors to use as decorations for customizing your armor skills!'
-      },
-      {
-        name: 'Like a Fire Hidden by Sand',
-        startDate: '2025-03-18',
-        endDate: '2025-04-01',
-        shortDescription:
-          'Gather special material to obtain the Expedition Headgear α, a piece of equipment based on the emblem of the expedition!'
-      },
-      {
-        name: 'Congalala Cravings',
-        startDate: '2025-03-25',
-        endDate: '2025-04-01',
-        shortDescription:
-          'Gather special material to obtain the Expedition Headgear α, a piece of equipment based on the emblem of the expedition!'
+          'Explore forgotten graves, teeming with new threats and challenges. But be wary, Traveler - these mausoleums are ever-shifting labyrinths.',
+        patchNotes: 'https://lastepoch.com/tombs-of-erased'
       }
     ]
   }

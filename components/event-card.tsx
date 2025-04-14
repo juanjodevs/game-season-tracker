@@ -2,7 +2,7 @@ import { Card, Flex, Badge } from '@radix-ui/themes'
 import { formatDate, getDaysRemaining } from '@/lib/utils'
 import type { Event } from '@/lib/types'
 
-const EventCard = ({ event, type = '' }: { event: Event, type?: string }) => {
+const EventCard = ({ event }: { event: Event }) => {
   const startDaysRemaining = getDaysRemaining(event.startDate)
 
   return (
@@ -19,7 +19,7 @@ const EventCard = ({ event, type = '' }: { event: Event, type?: string }) => {
             <Badge color="red">{getDaysRemaining(event.endDate)} days left</Badge>
           )
         }
-        {type === 'event' && <Badge color="yellow">Event</Badge>}
+        {event.type === 'event' && <Badge color="yellow">Event</Badge>}
       </div>
       <h2 className='font-bold'>{event.name}</h2>
       <p>{event.shortDescription}</p>

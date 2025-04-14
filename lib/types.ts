@@ -4,13 +4,12 @@ export interface Event {
   endDate?: string
   shortDescription: string
   patchNotes?: string
+  type: 'season' | 'event'
 }
 
 export interface Game {
   id: string
   name: string
-  nextSeason?: Event
-  currentSeason: Event
   events?: Event[]
   officialSite: string
 }
