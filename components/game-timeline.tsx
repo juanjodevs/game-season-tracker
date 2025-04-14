@@ -1,3 +1,5 @@
+'use client'
+
 import { Flex } from '@radix-ui/themes'
 import type { Game } from '@/lib/types'
 import Image from 'next/image'

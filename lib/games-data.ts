@@ -1,7 +1,6 @@
 import type { Game } from './types'
 
 export const news: string[] = [
-  'Last Epoch Season 2 delayed to 2025-04-14',
   'Expected date for Diablo 4 Season 8: Season of the Hunt is 2025-04-29, but not yet confirmed'
 ]
 
@@ -102,7 +101,7 @@ export const games: Game[] = [
     },
     nextSeason: {
       name: 'Tombs of the Erased',
-      startDate: '2025-04-14',
+      startDate: '2025-04-17',
       shortDescription:
         'Explore forgotten graves, teeming with new threats and challenges. But be wary, Traveler - these mausoleums are ever-shifting labyrinths.',
       patchNotes: 'https://lastepoch.com/tombs-of-erased'
