@@ -64,7 +64,7 @@ export const games: Game[] = [
     officialSite: 'https://lastepoch.com/',
     events: [
       {
-        name: 'Tombs of the Erased',
+        name: 'Tombs of the Erased (Season2)',
         type: 'season',
         startDate: '2025-04-17',
         shortDescription:
