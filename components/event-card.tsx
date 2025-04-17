@@ -8,11 +8,15 @@ const EventCard = ({ event }: { event: Event }) => {
   return (
     <Card className='md:relative'>
       <div className='md:absolute md:top-2 md:right-2 flex flex-row gap-2'>
+        {startDaysRemaining}
         {
           startDaysRemaining > 0 ?
             <Badge color="blue">{startDaysRemaining} day{startDaysRemaining !== 1 && 's'} to go Live</Badge>
             :
-            <Badge color="green">Live</Badge>
+            startDaysRemaining === 0 ?
+              <Badge color="mint">Going live today!</Badge>
+              :
+              <Badge color="green">Live</Badge>
         }
         {
           startDaysRemaining <= 0 && event.endDate && (

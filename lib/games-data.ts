@@ -64,14 +64,6 @@ export const games: Game[] = [
     officialSite: 'https://lastepoch.com/',
     events: [
       {
-        name: 'Harbingers of Ruin',
-        type: 'season',
-        startDate: '2024-07-09',
-        shortDescription:
-          'Harbingers have slain warriors across Eterra, cursing their souls to linger.',
-        patchNotes: 'https://www.lastepoch.com/harbingers-of-ruin'
-      },
-      {
         name: 'Tombs of the Erased',
         type: 'season',
         startDate: '2025-04-17',
