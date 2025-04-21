@@ -11,6 +11,8 @@ const News = ({ news }: { news: string[] }) => {
     return item
   }
 
+  if (news.length === 0) return null
+
   return (
     <section className='pb-5'>
       <Card className='bg-yellow-300 border-2 border-yellow-700 text-slate-800'>
