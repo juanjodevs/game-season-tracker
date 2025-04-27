@@ -79,5 +79,19 @@ export const games: Game[] = [
         patchNotes: 'https://lastepoch.com/tombs-of-erased'
       }
     ]
+  },
+  {
+    id: 'torchlight_infinite',
+    name: 'Torchlight: Infinite',
+    officialSite: 'https://torchlight.xd.com/en/',
+    events: [
+      {
+        name: 'Sandlord',
+        type: 'season',
+        startDate: '2025-04-17',
+        shortDescription: 'Season 8 introduces the \'Sandlord\' season, where players can build and manage their own Cloud Oasis, a floating island in the Netherrealm. Engage in new economic systems, recruit workers, and battle sand pirates. The season also introduces the new hero trait \'Blasphemer Thea\', revamped Deep Space region, and the \'Sands of Fortune\' anniversary event with a $250,000 prize pool.',
+        patchNotes: 'https://torchlight.xd.com/en/news/single?id=im8o7uI8mLMD'
+      }
+    ]
   }
 ]
