@@ -47,20 +47,20 @@ export const games: Game[] = [
     officialSite: 'https://diablo4.blizzard.com/',
     events: [
       {
-        name: 'Season 7: Season of Witchcraft',
-        type: 'season',
-        startDate: '2024-01-21',
-        endDate: '2025-04-29',
-        shortDescription:
-          'Wield Witchcraft Powers. Unravel a Mystery. Hunt the Headrotten.',
-        patchNotes: 'https://news.blizzard.com/diablo4/season'
-      },
-      {
         name: 'Season 8: Belial\'s Return',
         type: 'season',
         startDate: '2025-04-29',
         shortDescription:
           'Belial has returned, or has he? Only the Lord of Lies knows for certain, but that is the truth you must uncover in Season 8: Belial’s Return, wanderer.',
+        patchNotes: 'https://news.blizzard.com/diablo4/season'
+      },
+      {
+        name: 'Diablo IV x Berserk',
+        type: 'event',
+        startDate: '2025-05-06',
+        endDate: '2025-06-03',
+        shortDescription:
+          'Straight from the pages of Kentaro Miura’s beloved dark fantasy, the threads and armors of iconic characters from Berserk can soon be yours.',
         patchNotes: 'https://news.blizzard.com/diablo4/season'
       }
     ]
