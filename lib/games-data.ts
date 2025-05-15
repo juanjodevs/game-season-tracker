@@ -62,7 +62,16 @@ export const games: Game[] = [
         shortDescription:
           'Straight from the pages of Kentaro Miura’s beloved dark fantasy, the threads and armors of iconic characters from Berserk can soon be yours.',
         patchNotes: 'https://news.blizzard.com/diablo4/season'
+      },
+      {
+        name: 'Mother’s Blessing',
+        type: 'event',
+        startDate: '2025-05-14',
+        shortDescription:
+          '35% boost to Exp and 50% boost to Gold earned from monster kills',
+        patchNotes: 'https://news.blizzard.com/diablo4/season'
       }
+
     ]
   },
   {
